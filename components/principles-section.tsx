@@ -16,37 +16,37 @@ export function PrinciplesSection() {
     {
       number: "01",
       titleParts: [
-        { text: "INTERFACE", highlight: true },
-        { text: " MINIMALISM", highlight: false },
+        { text: "INTERACTIVE ", highlight: false },
+        { text: "NEURAL CANVAS", highlight: true },
       ],
-      description: "Reduce until only the essential remains. Every element earns its place.",
+      description: "Watch agents generate nodes in real-time, click nodes to view memory states, and interact with the graph physics.",
       align: "left",
     },
     {
       number: "02",
       titleParts: [
-        { text: "SYSTEMS", highlight: true },
-        { text: " OVER SCREENS", highlight: false },
+        { text: "HYBRID AI ", highlight: false },
+        { text: "MEMORY", highlight: true },
       ],
-      description: "Design behaviors, not just layouts. Build logic that scales.",
+      description: "Vector + Graph databases (Cognee) allow agents to recall context infinitely.",
       align: "right",
     },
     {
       number: "03",
       titleParts: [
-        { text: "CONTROLLED ", highlight: false },
-        { text: "TENSION", highlight: true },
+        { text: "ONE-CLICK ", highlight: false },
+        { text: "PDF EXPORT", highlight: true },
       ],
-      description: "Balance between restraint and expression. Confidence without excess.",
+      description: "Instantly download your massive AI-generated execution plan into a clean, formatted PDF document.",
       align: "left",
     },
     {
       number: "04",
       titleParts: [
-        { text: "SIGNAL ", highlight: false },
-        { text: "CLARITY", highlight: true },
+        { text: "COMPLETE ", highlight: false },
+        { text: "AUTOMATION", highlight: true },
       ],
-      description: "Communication that cuts through noise. Precision in every interaction.",
+      description: "From raw idea to architectural decision and implementation steps in one seamless workflow.",
       align: "right",
     },
   ]
@@ -93,8 +93,8 @@ export function PrinciplesSection() {
     <section ref={sectionRef} id="principles" className="relative py-32 pl-6 md:pl-28 pr-6 md:pr-12">
       {/* Section header */}
       <div ref={headerRef} className="mb-24">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Principles</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">HOW WE WORK</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Capabilities</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CORE FEATURES</h2>
       </div>
 
       {/* Staggered principles */}
