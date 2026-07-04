@@ -16,37 +16,37 @@ export function PrinciplesSection() {
     {
       number: "01",
       titleParts: [
-        { text: "INTERACTIVE ", highlight: false },
-        { text: "NEURAL CANVAS", highlight: true },
+        { text: "MEMORY ", highlight: false },
+        { text: "MUTATIONS", highlight: true },
       ],
-      description: "Watch agents generate nodes in real-time, click nodes to view memory states, and interact with the graph physics.",
+      description: "Every memory update automatically orchestrates downstream AI reasoning. No prompts. No chaining. Pure memory-driven autonomy.",
       align: "left",
     },
     {
       number: "02",
       titleParts: [
-        { text: "HYBRID AI ", highlight: false },
-        { text: "MEMORY", highlight: true },
+        { text: "PERSISTENT ", highlight: false },
+        { text: "CONTEXT", highlight: true },
       ],
-      description: "Vector + Graph databases (Cognee) allow agents to recall context infinitely.",
+      description: "Vector + Graph memory powered by Cognee. Infinite recall. Your team's brain never forgets a decision.",
       align: "right",
     },
     {
       number: "03",
       titleParts: [
-        { text: "ONE-CLICK ", highlight: false },
-        { text: "PDF EXPORT", highlight: true },
+        { text: "COLLABORATIVE ", highlight: false },
+        { text: "BRAIN", highlight: true },
       ],
-      description: "Instantly download your massive AI-generated execution plan into a clean, formatted PDF document.",
+      description: "Multiple AI specialists thinking together through one unified memory. True collaboration, not committee prompting.",
       align: "left",
     },
     {
       number: "04",
       titleParts: [
-        { text: "COMPLETE ", highlight: false },
-        { text: "AUTOMATION", highlight: true },
+        { text: "MEMORY ", highlight: false },
+        { text: "VISUALIZATION", highlight: true },
       ],
-      description: "From raw idea to architectural decision and implementation steps in one seamless workflow.",
+      description: "Interactive graph of your team's shared knowledge. Explore connections. Make informed decisions together.",
       align: "right",
     },
   ]
@@ -93,8 +93,8 @@ export function PrinciplesSection() {
     <section ref={sectionRef} id="principles" className="relative py-32 pl-6 md:pl-28 pr-6 md:pr-12">
       {/* Section header */}
       <div ref={headerRef} className="mb-24">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Capabilities</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CORE FEATURES</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Paradigm</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">HOW MEMORY WORKS</h2>
       </div>
 
       {/* Staggered principles */}

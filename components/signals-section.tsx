@@ -10,28 +10,28 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "2025.06.10",
-    title: "Enter Your Idea",
-    note: "Type a raw concept or problem statement into the pod.",
+    title: "Inject Knowledge",
+    note: "Feed information, decisions, and context into your shared memory system.",
   },
   {
     date: "2025.05.28",
-    title: "Let Agents Run",
-    note: "Watch as 5 AI agents sequentially analyze, architect, and plan.",
+    title: "Memory Propagates",
+    note: "Updates automatically flow through the knowledge graph. Reasoning evolves without prompt chaining.",
   },
   {
     date: "2025.05.15",
-    title: "Get Your Execution Plan",
-    note: "Review the complete blueprint and export it as PDF.",
+    title: "Autonomous Discovery",
+    note: "AI specialists query the shared brain and make decisions informed by persistent context.",
   },
   {
     date: "2025.04.30",
-    title: "Deploy Your Pod",
-    note: "Launch the generated system with production-ready setup.",
+    title: "Collective Intelligence",
+    note: "Your entire team—human and AI—thinking together through one unified memory.",
   },
   {
     date: "2025.04.12",
-    title: "Iterate & Refine",
-    note: "Use the neural canvas to explore alternative architectures.",
+    title: "Living Architecture",
+    note: "Memory-driven software engineering that adapts and improves with every decision.",
   },
 ]
 
@@ -135,8 +135,8 @@ export function SignalsSection() {
 
       {/* Section header */}
       <div ref={headerRef} className="mb-16 pr-6 md:pr-12">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Process</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">HOW IT WORKS</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Workflow</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">MEMORY IN MOTION</h2>
       </div>
 
       {/* Horizontal scroll container */}

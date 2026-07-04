@@ -40,7 +40,7 @@ export function HeroSection() {
       {/* Left vertical labels */}
       <div className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2">
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground -rotate-90 origin-left block whitespace-nowrap">
-          AGENTS
+          MEMORY OS
         </span>
       </div>
 
@@ -48,7 +48,7 @@ export function HeroSection() {
       <div ref={contentRef} className="flex-1 w-full">
         <SplitFlapAudioProvider>
           <div className="relative">
-            <SplitFlapText text="HANGOVER" speed={80} />
+            <SplitFlapText text="SYNTAPSE" speed={80} />
             <div className="mt-4">
               <SplitFlapMuteToggle />
             </div>
@@ -56,11 +56,11 @@ export function HeroSection() {
         </SplitFlapAudioProvider>
 
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          From Idea to Execution Plan in Minutes.
+          Memory-First Operating System for AI Software Engineering.
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
-          Deploy a swarm of autonomous AI agents to ideate, architect, and plan your entire software project. Visualized on a real-time neural canvas.
+          Stop passing prompts. Enable AI specialists to collaborate through shared, persistent memory. Every memory mutation orchestrates autonomous reasoning.
         </p>
 
         <div className="mt-16 flex items-center gap-8">
@@ -68,14 +68,14 @@ export function HeroSection() {
             href="#work"
             className="group inline-flex items-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
-            <ScrambleTextOnHover text="Create Your First Pod" as="span" duration={0.6} />
+            <ScrambleTextOnHover text="Explore Capabilities" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
           <a
             href="#signals"
             className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors duration-200"
           >
-            See Capabilities
+            How It Works
           </a>
         </div>
       </div>
@@ -83,7 +83,7 @@ export function HeroSection() {
       {/* Floating info tag */}
       <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
         <div className="border border-border px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-          AI AGENTS / Live
+          MEMORY FIRST / Production
         </div>
       </div>
     </section>

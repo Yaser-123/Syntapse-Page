@@ -9,39 +9,39 @@ gsap.registerPlugin(ScrollTrigger)
 
 const experiments = [
   {
-    title: "Ideation Agent",
-    medium: "Core Capability",
-    description: "Expands raw prompts into comprehensive feature sets.",
+    title: "Shared Memory Core",
+    medium: "Operating System",
+    description: "Persistent vector + graph memory powered by Cognee. Every AI specialist reads and writes to the same brain.",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "PRD Agent",
-    medium: "Documentation",
-    description: "Drafts strict Product Requirements Documents.",
+    title: "Memory Mutations",
+    medium: "Autonomous Reasoning",
+    description: "Each memory update automatically orchestrates downstream reasoning without prompt chaining.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Architecture Agent",
+    title: "Living Architecture",
     medium: "System Design",
-    description: "Designs scalable system architectures and database schemas.",
+    description: "Dynamic memory-driven architecture that evolves with every decision and code change.",
     span: "col-span-1 row-span-2",
   },
   {
-    title: "Tech Stack Agent",
-    medium: "Framework Selection",
-    description: "Selects the optimal modern frameworks.",
+    title: "Persistent Context",
+    medium: "Knowledge Continuity",
+    description: "Infinite recall across sessions. No context loss, no prompt redundancy.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Implementation Agent",
-    medium: "Execution",
-    description: "Breaks everything down into actionable coding steps.",
+    title: "Memory Canvas",
+    medium: "Visualization",
+    description: "Interactive graph visualization of your team's shared knowledge in real-time.",
     span: "col-span-2 row-span-1",
   },
   {
-    title: "Neural Canvas",
-    medium: "Visualization",
-    description: "Interactive real-time visualization of agent work.",
+    title: "Collaborative Brain",
+    medium: "Multi-Agent Coordination",
+    description: "Multiple AI specialists thinking together through a single, unified memory.",
     span: "col-span-1 row-span-1",
   },
 ]
@@ -98,11 +98,11 @@ export function WorkSection() {
       {/* Section header */}
       <div ref={headerRef} className="mb-16 flex items-end justify-between">
         <div>
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / How It Works</span>
-          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">AI AGENTS AT WORK</h2>
+          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Core Architecture</span>
+          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">MEMORY-FIRST SYSTEM</h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          Five specialized agents working together to turn your idea into a complete execution plan.
+          Shared memory becomes the operating system. Autonomous reasoning flows from persistent knowledge, not prompt chains.
         </p>
       </div>
 
